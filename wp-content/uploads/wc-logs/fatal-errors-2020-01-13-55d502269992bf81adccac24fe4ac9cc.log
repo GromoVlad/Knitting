@@ -1,0 +1,8 @@
+2020-01-13T19:49:51+00:00 CRITICAL syntax error, unexpected '}' в C:\Server\data\htdocs\wp-content\themes\philips\index.php на строке 37
+
+2020-01-13T19:50:26+00:00 CRITICAL syntax error, unexpected 'endfor' (T_ENDFOR) в C:\Server\data\htdocs\wp-content\themes\philips\index.php на строке 37
+
+2020-01-13T19:52:00+00:00 CRITICAL syntax error, unexpected 'endfor' (T_ENDFOR) в C:\Server\data\htdocs\wp-content\themes\philips\index.php на строке 26
+
+2020-01-13T19:52:02+00:00 CRITICAL syntax error, unexpected 'endfor' (T_ENDFOR) в C:\Server\data\htdocs\wp-content\themes\philips\index.php на строке 26
+

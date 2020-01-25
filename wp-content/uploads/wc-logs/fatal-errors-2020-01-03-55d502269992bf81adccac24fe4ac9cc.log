@@ -1,0 +1,6 @@
+2020-01-03T22:03:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\Server\data\htdocs\wp-admin\includes\plugin.php на строке 330
+
+2020-01-03T22:05:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\Server\data\htdocs\wp-content\plugins\woocommerce-services\classes\class-wc-connect-service-settings-store.php на строке 3
+
+2020-01-03T22:12:04+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\Server\data\htdocs\wp-content\plugins\mailchimp-for-woocommerce\bootstrap.php на строке 77
+

@@ -1,0 +1,511 @@
+html{
+    font-size: 10px;
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+    html{
+        font-size: 5px;
+    }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+    html{
+        font-size: 5px;
+    }
+}
+.my-works{
+    font-family: Lobster, sans-serif;
+    font-size: 6.5rem;
+    line-height: 10rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+    color: white;
+    margin-top: 1.0rem;
+}
+@media (min-width: 320px) and (max-width: 500px) {
+    .my-works{
+        font-size: 5.0rem;
+        line-height: 7rem;
+    }
+}
+.woocommerce-sort{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.woocommerce-notices-wrapper{
+    display: none;
+}
+.woocommerce-sort .woocommerce-result-count{
+    font-family: Pacifico, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+.woocommerce .woocommerce-ordering{
+    margin: 0;
+}
+.woocommerce-sort .orderby{
+    font-family: Pacifico, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    border-radius: 2rem;
+    padding: 0.25rem 1rem;
+}
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+    color: #000;
+    font-family: Pacifico, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 200;
+    text-decoration: none;
+}
+.woocommerce ul.products li.product .woocommerce-loop-product__title:hover {
+    color: #21759b;
+}
+.woocommerce ul.products li.product .price{
+    font-size: 4.0rem;
+    margin: 0 0 0 0;
+}
+.priceAndBasket{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.woocommerce ul.products li.product .button{
+    margin: 0 0 0 0;
+    font-family: Lobster, sans-serif;
+    font-size: 2.0rem;
+}
+.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span{
+    font-size: 2rem;
+}
+.woocommerce ul.products li.product a{
+    font-family: Pacifico, sans-serif;
+    font-size: 2.0rem;
+    line-height: 2.3rem;
+}
+ul.products li p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.posted_in{
+    font-size: 2rem;
+    font-family: Pacifico, sans-serif;
+    margin: 1rem 0;
+}
+.product_meta{
+    margin: 1rem 0;
+}
+span.posted_in a{
+    color: rgb(44, 79, 185);
+}
+span.posted_in a:visited{
+    color: rgb(44, 79, 185);
+}
+span.sku_wrapper{
+    display: block;
+    font-size: 2rem;
+    font-family: Pacifico, sans-serif;
+    margin: 1rem 0;
+}
+main.site-main nav.woocommerce-breadcrumb{
+    display: flex;
+    justify-content: center;
+    margin: 3.0rem 0;
+    font-family: Pacifico, sans-serif;
+    font-size: 1.8rem;
+}
+.woocommerce div.product .product_title {
+    color: #000;
+    font-family: Pacifico, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 200;
+    text-decoration: none;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+    font-size: 4.0rem;
+    margin: 2.5rem 0; 
+}
+.woocommerce div.product form.cart .reset_variations{
+    color: rgb(44, 79, 185);
+    font-family: Pacifico, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+.woocommerce div.product p.stock{
+    color: rgb(153, 17, 17);
+    font-family: Pacifico, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 200;
+}
+.woocommerce div.product form.cart .button{
+    margin: 1rem 0;
+    font-family: Bad Script, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+    background-color: black;
+    width: 30rem;
+}
+.woocommerce div.product form.cart .button:hover{
+    background-color: grey;
+}
+.woocommerce form.cart .quantity .qty{
+    font-family: Lobster, sans-serif;
+    font-size: 2.3rem;
+    width: 5rem;
+    margin: 1rem 0;
+}
+.woocommerce div.product form.cart div.quantity::before{
+    content: "Количество: ";
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Pacifico, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+div.woocommerce-variation-add-to-cart {
+    display: flex;
+    flex-direction: column;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+.woocommerce div.product form.cart{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+section.related ul.products {
+    display: flex;
+    flex-direction: column;
+}
+section.related ul.products li.product{
+    width: 100%;
+    margin: 0;
+}
+section.related ul.products li.product h2.woocommerce-loop-product__title{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+section.related ul.products li.product span.posted_in{
+    display: none;
+}
+section.related ul.products li.product span.sku_wrapper{
+    display: none;
+}
+section.related ul.products li.product p{
+    display: none;
+}
+section.related ul.products li.product div.priceAndBasket{
+    display: none;
+}
+section.related h2 {
+    font-family: Pacifico, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 500;
+}
+div.woocommerce-Tabs-panel--description h2{
+    font-family: Pacifico, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.woocommerce div.product table.variations tr td.label label{
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Pacifico, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.woocommerce div.product table.variations tr td.label label:after {
+    content: ": ";
+}
+
+.woocommerce div.product table.variations tr td.value select{
+    padding: 0 1rem;
+    font-family: Bad Script, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+table.variations tr td.value {
+    padding: 0;
+    display: flex;
+}
+table.variations tbody tr{
+    display: flex;
+    align-items: center;
+}
+div.woocommerce-variation-price{
+    margin: 1.5rem 0;
+}
+div.woocommerce-variation-price span.price span.woocommerce-Price-amount:before {
+    content: "Стоимость: "; 
+    font-family: Pacifico, sans-serif;
+    font-size: 3.0rem;
+    font-weight: 100;
+}
+div.woocommerce-Tabs-panel--additional_information h2{
+    font-family: Pacifico, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+div.woocommerce-Tabs-panel--additional_information table.woocommerce-product-attributes th{
+    font-family: Pacifico, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 200;
+}
+div.woocommerce-Tabs-panel--additional_information table.woocommerce-product-attributes td{
+    font-family: Railway, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 200;
+    padding: 0.5rem 1rem;
+}
+h1.header-title{
+    font-family: Lobster, sans-serif;
+    font-size: 6.5rem;
+    line-height: 10rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+    color: white;
+    margin-top: 1.0rem;
+}
+.woocommerce-cart table.cart img{
+    width: 20rem;
+    height: 20rem;
+}
+.woocommerce-cart table.cart th {
+    font-family: Bad Script, sans-serif;
+    font-size: 3.0rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+.woocommerce-cart table.cart td {
+    font-family: Bad Script, sans-serif;
+    font-size: 2.5rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+.woocommerce-cart table.cart td a{
+    color: black;
+}
+.woocommerce-cart table.cart td.product-thumbnail{
+    padding: 0;
+}
+.woocommerce a.remove{
+    margin: 0;
+}
+.woocommerce-cart table.cart td span.woocommerce-Price-amount {
+    font-family: Railway, sans-serif;
+}
+form.woocommerce-cart-form{
+    margin: 2.5rem 0;
+}
+td.product-thumbnail {
+    display: flex;
+    justify-content: center;
+}
+td.product-quantity input{
+    font-family: Railway, sans-serif;
+    font-size: 2.5rem;
+}
+.woocommerce .quantity .qty{
+    width: 5rem;
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button{
+    background-color: black;
+    font-family: Bad Script, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover{
+    background-color: gray;
+}
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals h2{
+    font-family: Pacifico, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+.woocommerce ul#shipping_method .amount{
+    font-family: Pacifico, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+form.woocommerce-checkout{
+    font-family: Bad Script, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 100;
+    margin: 3rem 0;
+}
+form.woocommerce-checkout input{
+    font-family: Bad Script, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin: 3rem 0;
+}
+.woocommerce h3.order_review_heading{
+    margin: 3rem 0;
+}
+.woocommerce ul.products li.product a img{
+    transition: 1s;
+    border-radius: 5rem;
+}
+.woocommerce ul.products li.product a img:hover{
+    transform: scale(1.02);
+}
+div.payment_and_delivery{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+}
+div.payment_and_delivery figure img{
+    width: 100%;
+}
+div.payment_and_delivery figure {
+    margin: 0;
+}
+div.payment_and_delivery div h3{
+    color: #000;
+    font-family: Pacifico, sans-serif;
+    font-size: 3.2rem;
+    font-weight: 100;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+div.payment_and_delivery div ul{
+    margin: 0;
+    font-family: Bad Script, sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-weight: 100;
+    padding-left: 4rem;
+}
+.woocommerce div.product div.images img{
+    border-radius: 5rem;
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+    section.related ul.products {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0 5%;
+    }
+    .woocommerce .products ul::after, .woocommerce .products ul::before, .woocommerce ul.products::after, .woocommerce ul.products::before{
+        display: none;
+    }
+    section.related ul.products li.product h2.woocommerce-loop-product__title{
+        font-size: 2.5rem;
+    }
+    .woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span{
+        font-size: 4.5rem;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 376px) {
+    h1.header-title{
+        font-size: 5.2rem;
+        line-height: 8rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .woocommerce-cart table.cart .product-thumbnail {
+       display: flex;
+    }
+   .woocommerce-cart table.cart .product-thumbnail img{
+        width: 60rem;
+        height: 60rem;
+        padding: 1rem;
+    }
+   .woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before{
+     content: attr(data-title) " ";
+   }
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .nav.navbar-nav.navbar-right{
+        display: flex;
+    }
+    .navbar-nav  li.menu-item-169{
+        padding: 2.0rem 3.5rem 1.6rem 3.5rem;
+        display: flex; 
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+   
+    .mainmenu ul.nav.navbar-nav li a{
+        font-size: 1.5rem;
+    }
+    li.menu-item-169 span.basket-btn__counter{
+        font-size: 1.1rem;
+    }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .woocommerce-cart table.cart td {
+        font-family: Bad Script, sans-serif;
+        font-size: 3.5rem;
+        padding: 0.5rem 0.5rem;
+        text-align: center;
+    }
+    .woocommerce table.shop_table_responsive tr, .woocommerce-page table.shop_table_responsive tr{
+        margin: 3rem 0;
+    }
+    .woocommerce table.shop_table_responsive tr, .woocommerce-page table.shop_table_responsive tr:first-child{
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+    .woocommerce table.shop_table_responsive tr, .woocommerce-page table.shop_table_responsive tr:last-child{
+        margin-bottom: 0;
+        margin-top: 3rem;
+    }
+    td.product-quantity input{
+        font-family: Railway, sans-serif;
+        font-size: 3.0rem;
+    }
+    .woocommerce .quantity .qty{
+        width: 7rem;
+    }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+
+    .woocommerce ul.products li.product .price{
+        font-size: 3.5rem;
+    }
+    .woocommerce ul.products li.product .button{
+        font-size: 2.5rem;
+    }
+    .woocommerce ul.products li.product a{
+        font-size: 2.5rem;
+        line-height: 3.0rem;
+    }
+    .woocommerce ul.products li.product .woocommerce-loop-product__title{
+        font-size: 4.0rem;
+    }
+    ul.products li p {
+        font-size: 2.0rem;
+        line-height: 3.0rem;
+    }
+    .woocommerce .products ul, .woocommerce ul.products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

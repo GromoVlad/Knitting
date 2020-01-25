@@ -1,0 +1,8 @@
+2020-01-06T22:04:55+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\Server\data\htdocs\wp-content\themes\philips\woocommerce\content-product.php на строке 32
+
+2020-01-06T23:19:37+00:00 CRITICAL syntax error, unexpected end of file в C:\Server\data\htdocs\wp-content\themes\philips\functions.php на строке 201
+
+2020-01-06T23:23:37+00:00 CRITICAL syntax error, unexpected '}' в C:\Server\data\htdocs\wp-content\themes\philips\functions.php на строке 206
+
+2020-01-06T23:24:10+00:00 CRITICAL syntax error, unexpected '}' в C:\Server\data\htdocs\wp-content\themes\philips\functions.php на строке 206
+

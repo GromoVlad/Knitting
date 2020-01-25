@@ -1,0 +1,8 @@
+2020-01-16T06:35:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\Server\data\htdocs\wp-includes\Requests\Transport\fsockopen.php на строке 381
+
+2020-01-16T08:10:09+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) в C:\Server\data\htdocs\wp-content\themes\philips\header.php на строке 52
+
+2020-01-16T08:10:11+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) в C:\Server\data\htdocs\wp-content\themes\philips\header.php на строке 52
+
+2020-01-16T10:33:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\Server\data\htdocs\wp-includes\Requests\Transport\fsockopen.php на строке 381
+

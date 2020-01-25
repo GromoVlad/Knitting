@@ -1,0 +1,8 @@
+2020-01-07T17:50:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в C:\Server\data\htdocs\wp-includes\Requests\Transport\fsockopen.php на строке 246
+
+2020-01-07T18:30:09+00:00 CRITICAL syntax error, unexpected end of file в C:\Server\data\htdocs\wp-content\themes\philips\functions.php на строке 221
+
+2020-01-07T18:32:09+00:00 CRITICAL syntax error, unexpected ''$cols'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) в C:\Server\data\htdocs\wp-content\themes\philips\functions.php на строке 221
+
+2020-01-07T19:19:13+00:00 CRITICAL syntax error, unexpected end of file в C:\Server\data\htdocs\wp-content\themes\philips\functions.php на строке 227
+
